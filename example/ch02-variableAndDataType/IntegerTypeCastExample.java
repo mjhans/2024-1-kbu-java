@@ -19,5 +19,9 @@ public class IntegerTypeCastExample {
         int result = x + y;
 
         byte result2 = 20 + 20; 
+
+        long longA = 30L;
+        long lResult1 = x + y;
+        long lResult2 = x + y + longA;
     }
 }
