@@ -14,7 +14,7 @@
 /usr/libexec/java_home -v21 
 ```
 > jdk설치 경로 확인 (설치 환경에 따라서 출력의 결과는 그림과 다를수 있음)
-![check path](images/check_java_path.png)
+![check path](images/multiple_java_version/check_java_path.png)
  
 #### 자바 버전별로 환경 변수 (Environment Variables) 만들어서 시스템에 적용하기
 
@@ -36,10 +36,10 @@ cat ~/.zshrc | grep JAVA
 ```
  
 > 자바 환경변수 설정 하기
-![export java home ](images/export_java_home.png)  
+![export java home ](images/multiple_java_version/export_java_home.png)  
 
 > 환경 변수 셋팅후 ~/.zshrc 파일 확인
-![check .zshrc file](images/java_home_result.png)
+![check .zshrc file](images/multiple_java_version/java_home_result.png)
 
 #### alias 명령어를 이용해서 JAVA_HOME 환경변수 쉽게 변경할 수 있도록 셋팅
 
@@ -53,7 +53,7 @@ echo "alias java21='export JAVA_HOME=\$JAVA_21_HOME'" >> ~/.zshrc
   
 
 > ~/.zshrc 파일확인
-![check .zshrc file](images/check_zshrc.png)
+![check .zshrc file](images/multiple_java_version/check_zshrc.png)
   
   
 - source 명령어로 .zshrc에 적힌 내용을 시스템에 적용
@@ -72,4 +72,4 @@ java21
 java --version
 ```
 >자바 버전 확인 결과
-![check java version](images/translate_java_version.png)
+![check java version](images/multiple_java_version/translate_java_version.png)
