@@ -12,7 +12,7 @@
 - 작업하기 편리한 윈도우즈에서 코드를 작성하고, debian linux영역으로 파일을 이동해서 컴파일 및 실행 하는 방법을 쓴다
 
 > **WSL2 구조**
-![wsl 구조](https://heekangpark.github.io/assets/img/wsl/wsl-wsl2-architecture.png){: width="60%" height="60%"}  
+<img src="https://heekangpark.github.io/assets/img/wsl/wsl-wsl2-architecture.png" width="60%" height="60%"> 
 > 이미지 출처 : https://heekangpark.github.io/wsl/wsl
 > hypervisor : 단일 물리적 머신에서 여러 가상머신을 실행한는데 사용할수 있는 소프트웨어 [링크](https://aws.amazon.com/ko/what-is/hypervisor/)
 > Kernel : 운영체제 중 항상 메모리에 올라가 있는 운영체제의 핵심 부분으로써 하드웨어와 응용 프로그램 사이에서 인터페이스를 제공하는 역할을 하며 컴퓨터 자원들을 관리하는 역할 [링크](https://minkwon4.tistory.com/295)
@@ -42,20 +42,20 @@ class HelloWorld {
 #### 윈도우즈에서 작성한 소스코드를 debian으로 이동하기
 - 저장한 파일을 Debian 리눅스와 연결된 디렉토리로 이동
   - 파일 탐색기에서 Debian 리눅스 디렉토리 찾기
-![file explorer 1](images/run_hello_world/file_explorer.png){: width="30%" height="30%" } ![file explorer 2](images/run_hello_world/file_explorer2.png){: width="48%" height="48%" } 
+<img src="images/run_hello_world/file_explorer.png" width="30%" height="30%"> <img src="images/run_hello_world/file_explorer2.png" width="48%" height="48%">
   - HelloWorld.java파일을 Debian  복사하기
-![file move](images/run_hello_world/file_move.png){: width="40%" height="40%" } 
+<img src="images/run_hello_world/file_move.png" width="40%" height="40%" >
 > 참고사항 : Debian linux의 경우 경로가 /mnt/c/ 로 잡혀있다 윈도우즈 C 드라이브와 연결된부분
-![linux mount](images/run_hello_world/dir_mount_path.png){: width="50%" height="50%" }
+<img src="images/run_hello_world/dir_mount_path.png" width="50%" height="50%">
 
 #### 리눅스 접속하기
 - powershell을 열고 `wsl -d Debian` 명령어로 리눅스 접속하기
-![run debian](images/run_hello_world/run_debian.png){: width="50%" height="50%" }  
+<img src="images/run_hello_world/run_debian.png" width="50%" height="50%">
 
 #### jdk 버전 확인
 - jdk 1.17이 제대로 설치됬는지, 확인
   - `java --version`  
-![check java version](images/run_hello_world/check_java_version.png){: width="50%" height="50%" }
+<img src="images/run_hello_world/check_java_version.png" width="50%" height="50%" >
 
 #### 컴파일 하기
 - Debian linux에서 소스코드 파일 확인하고, javac 명령어로 컴파일하기
@@ -67,7 +67,7 @@ javac HelloWorld.java
 # 파일 목록 확인
 ls -al
 ``` 
-![check class file](images/run_hello_world/java_complie.png){: width="50%" height="50%" }
+<img src="images/run_hello_world/java_complie.png" width="50%" height="50%">
 
 #### 실행하기
 - HelloWorld 클래스를 컴파일 했기 때문에 HelloWorld.class 파일이 생성됨
@@ -75,5 +75,5 @@ ls -al
 ```shell
 java HelloWorld
 ```
-![run hello world](images/run_hello_world/java_run.png){: width="50%" height="50%" }
+<img src="images/run_hello_world/java_run.png" width="50%" height="50%">
 
