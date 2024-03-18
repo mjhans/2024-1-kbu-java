@@ -1,4 +1,4 @@
-public class StringOperatorExample {
+public class StringConcatOperatorExample {
     public static void main(String[] args) {
         String str1 = "JAVA" + 1.17;
         String str2 = str1 + " 쉬워요";
