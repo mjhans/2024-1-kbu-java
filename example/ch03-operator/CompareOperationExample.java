@@ -23,10 +23,5 @@ class CompareOperationExample{
                 
         System.out.println(e == f);
         System.out.println(e != f);
-        
-
-        String g = "Hello!";        
-        System.out.println( g.equals("HELLO!"));
-        System.out.println( g.equals("Hello!"));
     }
 }
