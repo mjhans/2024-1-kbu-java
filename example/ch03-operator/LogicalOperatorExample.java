@@ -19,6 +19,6 @@ public class LogicalOperatorExample {
         result = (ops1 > ops2) ^ (ops1 < ops2);
         System.out.println("베타적 논리합 (ops1 < ops2) ^ (ops1 < ops2) 결과 : " + result);
 
-        System.out.println("논리 부정 !(ops1 < ops2) : " + !(ops1 > ops2) + ", !(ops1 < ops2) : " + !(ops1 < ops2));
+        System.out.println("논리 부정 !(ops1 > ops2) : " + !(ops1 > ops2) + ", !(ops1 < ops2) : " + !(ops1 < ops2));
     }
 }
