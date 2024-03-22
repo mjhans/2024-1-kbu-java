@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "example/ch03-operator",
+        "example/ch02-variableAndDataType",
+        "example/ch01-overview",
+        "ClassTutorial"
+    ]
+}

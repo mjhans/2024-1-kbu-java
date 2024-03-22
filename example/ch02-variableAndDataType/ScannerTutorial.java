@@ -1,8 +1,3 @@
-/********************************************************
- *                                                      *
- *  File Name : Interactive.java                        *
- *                                                      *
- ********************************************************/
 import java.util.Scanner;
 
 public class ScannerTutorial{
