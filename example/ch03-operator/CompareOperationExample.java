@@ -10,11 +10,11 @@ class CompareOperationExample{
         double e = 3.14;
         double f = 5.14;
                 
-        System.out.println("a < b : " + (a < b));			
+        System.out.println("a < b : " + (a < b));	//10 < 20		
         System.out.println("a > b : " + (a > b));
         System.out.println("a + b <= c : " + (a + b <= c));
         System.out.println("a + b >= c : " + (a + b >= c));
-        System.out.println("c==d : " + (c==d));
+        System.out.println("c==d : " + (c == d));
                 
         if (a != b) { // if는 관계 연산자의 결과가 참인지 아닌지 판단
             System.out.println("다르다");

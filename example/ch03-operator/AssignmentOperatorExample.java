@@ -3,6 +3,8 @@ public class AssignmentOperatorExample {
         int result = 10;
         System.out.println("result = 10 : " + result);
 
+        // result++; //result = result+ 1;
+        // result += 3;
         result += 2;
         System.out.println("result += 2 : " + result);
 

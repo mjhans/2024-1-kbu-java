@@ -6,7 +6,7 @@ public class BitOperatorExample {
         int result = ~a;
         System.out.println("~a : " + result);
 
-        result = a & 0xF0; //0xF0 => 240
+        result = a & 0xF0; //0xF0 => 0
         System.out.println("a & 0xF0 : " + result);
 
         result = a | 0xF0; //0xF0 => 240
