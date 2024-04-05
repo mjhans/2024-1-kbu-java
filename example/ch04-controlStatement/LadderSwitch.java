@@ -10,9 +10,9 @@ class LadderSwitch{
 
         System.out.print("1~4 사이의 정수를 입력하세요: ");
         int x = sc.nextInt();
-
+        final int y = 1;
         switch(x){
-            case 1:
+            case y:
                 System.out.println("x는 1");
                 break;                
             case 2:

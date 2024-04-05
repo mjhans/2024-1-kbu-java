@@ -26,5 +26,16 @@ public class AgeInformation {
         else {
             System.out.println("성인입니다.");
         }
+
+        switch (age) {
+            case 1,2,3,4,5,6,7:
+                System.out.println("미취학 아동입니다.");
+                break;
+            case 17, 18, 19:
+                System.out.println("고등학생입니다.");
+                break;
+            default:
+                break;
+        };
     }
 }
