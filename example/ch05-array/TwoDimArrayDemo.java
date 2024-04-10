@@ -11,7 +11,7 @@ public class TwoDimArrayDemo{
 
         System.out.println("iArray[0][1] : " + iArray[0][1]);
         System.out.println("iArray[2][2] : " + iArray[2][2]);
-        //System.out.println("iArray[3][1] : " + iArray[0][1]); 에러!!
+        //System.out.println("iArray[3][1] : " + iArray[3][1]); 에러!!
         
         System.out.println("---------- array iteration ----------");
         for (int i = 0 ; i < iArray.length ; i++){ 
