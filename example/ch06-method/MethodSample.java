@@ -38,6 +38,7 @@ public class MethodSample {
     public static void main(String[] args) {
         
         int num = getRandomNumber();
+        //int n = getRandomNumber();
         System.out.println("Is it " + num + " even? " + isEven(num));           
 
         int[] randomArray = createRandomArray(5);

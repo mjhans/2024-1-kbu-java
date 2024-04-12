@@ -1,9 +1,11 @@
 {
     "java.project.sourcePaths": [
+        "example/ch05-array",
+        "example/ch04-controlStatement",
         "example/ch03-operator",
         "example/ch02-variableAndDataType",
         "example/ch01-overview",
         "ClassTutorial",
-        "example/ch04-controlStatement"
+        "example/ch06-method"
     ]
 }

@@ -1,5 +1,6 @@
 public class ArrayUseExample {
     public static void main(String[] args) {
+        
         int score1 = 83;
         int score2 = 93;
         int score3 = 23;
@@ -11,6 +12,7 @@ public class ArrayUseExample {
         int score9 = 67;
         int score10 = 67;
 
+
         int sum = score1;
         sum += score2;
         sum += score3;
@@ -21,6 +23,7 @@ public class ArrayUseExample {
         sum += score8;
         sum += score9;
         sum += score10;
+        
 
         double avg = sum / 10.0;
         // array
