@@ -19,7 +19,7 @@ public class MethodReferenceType {
     static int twiceInt(int arg){
         int result = arg * 2;
         arg *= 2;
-        return result;
+        return result; //6
     }
 
     public static void main(String[] args) {
