@@ -13,14 +13,13 @@ public class AdvanceMinivan {
     AdvanceMinivan(int passengers){
         this.passengers = passengers;
     }
-    AdvanceMinivan(int passengers, double fuelcap){
+    private AdvanceMinivan(int passengers, double fuelcap){
         this(passengers);
         setFuelcap((int)fuelcap);
     }
-    AdvanceMinivan(double fuelcap, int passengers){
+    public AdvanceMinivan(double fuelcap, int passengers){
         this(passengers, fuelcap);
     }
-
     AdvanceMinivan(int p, int f){
         this.setPassengers(p);
         this.setFuelcap(f);

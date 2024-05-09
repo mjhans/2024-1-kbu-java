@@ -5,6 +5,7 @@ public class Minivan {
     private int fuelcap;         // 사용한 연료의 용량
     private final int mpg = 3;          // mile per gasoline, 마일당 연료 소모량, 상수
     public final int PAYMENT_COEFFICIENT = 2000;
+
     public void setPassengers(int pass){
         passengers = pass;
     }
