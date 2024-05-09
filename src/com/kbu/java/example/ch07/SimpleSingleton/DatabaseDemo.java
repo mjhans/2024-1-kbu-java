@@ -5,10 +5,13 @@ public class DatabaseDemo {
         DatabaseConnection dbconn = DatabaseConnection.getInstance();
         dbconn.connect();
 
-        DatabaseConnection anotherDbconn = DatabaseConnection.getInstance();
-        anotherDbconn.connect();
+        DatabaseConnection anotherDbconn01 = DatabaseConnection.getInstance();
+        anotherDbconn01.connect();
 
         //DatabaseConnection anotherDbconn2 = new DatabaseConnection();
+
+        DatabaseConnection anotherDbconn02 = DatabaseConnection.getInstance();
+        anotherDbconn02.connect();
 
     }
 }

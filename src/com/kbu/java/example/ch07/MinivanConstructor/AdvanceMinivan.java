@@ -1,10 +1,31 @@
-package com.kbu.java.example.ch07.MinivanAccessModifier;
+package com.kbu.java.example.ch07.MinivanConstructor;
 
-public class Minivan {
+public class AdvanceMinivan {
     private int passengers;      // 승객 수
     private int fuelcap;         // 사용한 연료의 용량
     private final int mpg = 3;          // mile per gasoline, 마일당 연료 소모량, 상수
     public final int PAYMENT_COEFFICIENT = 2000;
+
+    AdvanceMinivan(){
+        this(0, 0);
+    }
+
+    AdvanceMinivan(int passengers){
+        this.passengers = passengers;
+    }
+    AdvanceMinivan(int passengers, double fuelcap){
+        this(passengers);
+        setFuelcap((int)fuelcap);
+    }
+    AdvanceMinivan(double fuelcap, int passengers){
+        this(passengers, fuelcap);
+    }
+
+    AdvanceMinivan(int p, int f){
+        this.setPassengers(p);
+        this.setFuelcap(f);
+    }
+
     public void setPassengers(int pass){
         passengers = pass;
     }
