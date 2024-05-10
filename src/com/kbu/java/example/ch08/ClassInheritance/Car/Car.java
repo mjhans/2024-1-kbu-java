@@ -1,26 +1,26 @@
 package com.kbu.java.example.ch08.ClassInheritance.Car;
 
-class Car {
+public class Car {
     String ownerName;
     int mpg;
     int maxPeople = 4;
     int currentSpeed;
-    private int wheel = 4;
+    protected int wheel = 4;
 
-    boolean onStart(){
+    public boolean onStart(){
         System.out.println("시동을 켯습니다.");
         return true;
     }
 
-    void accelerator(int speed){
+    public void accelerator(int speed){
         this.currentSpeed += speed;
     }
 
-    int getCurrentSpeed(){
+    public int getCurrentSpeed(){
         return currentSpeed;
     }
 
-    int getWheel(){
+    public int getWheel(){
         return this.wheel;
     }
 }

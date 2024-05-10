@@ -7,7 +7,11 @@ public class Minivan {
     public final int PAYMENT_COEFFICIENT = 2000;
 
     public void setPassengers(int pass){
-        passengers = pass;
+        if (pass >= 0){
+            passengers = pass;
+        }
+        
+        
     }
     public void setFuelcap(int f){
         fuelcap = f;

@@ -4,6 +4,10 @@ class MinvanDemo {
     public static void main(String[] args) {
         Minivan minivan = new Minivan();
         minivan.setPassengers(8);
+        // int[] ps = minivan.getPassengers();
+        // ps[0] = 4;
+        //minivan.PAYMENT_COEFFICIENT = 6;
+    
         minivan.setFuelcap(80);
         
         System.out.println(minivan.getFuelcap());

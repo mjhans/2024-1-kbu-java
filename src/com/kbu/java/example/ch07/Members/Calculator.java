@@ -12,8 +12,11 @@ package com.kbu.java.example.ch07.Members;
 	}
 
     static int plus(int x, int y ){  // 정적 method
-        //String s = buttonColor; // 정적 method에서 인스턴스 멤버를 사용할수 없다.
+        // String s = buttonColor; // 정적 method에서 인스턴스 멤버를 사용할수 없다.
+        // double p = pi;
+        Calculator cal = new Calculator();
         //String s = new Calculator().bodyColor; // 반드시 객체를 생성하고 사용
+        String s = cal.bodyColor; // 반드시 객체를 생성하고 사용
         return x + y;
     }
 

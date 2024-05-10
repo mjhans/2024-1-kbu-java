@@ -11,10 +11,15 @@ public class Minivan {
     Minivan(int p){
         passengers = p;
     }
+    Minivan(double p){
+        passengers = (int)p;
+    }
+
     Minivan(int p, double f){
         passengers = p;
         setFuelcap((int)f);
     }
+
     Minivan(double f, int p){
         passengers = p;
         setFuelcap((int)f);

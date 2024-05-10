@@ -6,8 +6,8 @@ class Vehicle {
     public int mpg;             // mile per gasoline, 마일당 연료 소모량
 
 
-    public int range(){
-        return fuelcap * mpg;
+    public double range(){
+        return (double)fuelcap / (double)mpg;
     }
 }
 
@@ -20,7 +20,7 @@ class VehicleDemo {
         minivan.fuelcap = 16;
         minivan.mpg = 21;
         
-        int range_minivan = minivan.fuelcap * minivan.mpg;
+        double range_minivan = minivan.range();
         String msg_minivan = String.format("[minivan] passengers : %s ,  range : %s", 
                                             minivan.passengers, 
                                             range_minivan);
@@ -31,7 +31,7 @@ class VehicleDemo {
         sportscar.passengers = 2;
         sportscar.fuelcap = 40;
         sportscar.mpg = 8;
-        int range_sportscar = sportscar.fuelcap * sportscar.mpg;
+        double range_sportscar = sportscar.range();
 
         String msg_sportscar = String.format("[sportscar] passengers : %s , range : %s", 
                                             sportscar.passengers, 
