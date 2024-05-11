@@ -3,7 +3,7 @@ package com.kbu.java.example.ch07.SimpleSingleton;
 import java.util.Random;
 
 public class DatabaseConnection {
-    private static DatabaseConnection[] instance = null;
+    private static DatabaseConnection instance = null;
     private int count = 0;
 
     private final String connectionName;
@@ -17,9 +17,9 @@ public class DatabaseConnection {
         this.count++;
     }
 
-    public static DatabaseConnection[] getInstance() {
+    public static DatabaseConnection getInstance() {
         if (instance == null) {
-            instance = new DatabaseConnection[3];
+            instance = new DatabaseConnection();
         }
         return instance;
     }
