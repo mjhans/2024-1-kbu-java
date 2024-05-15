@@ -14,7 +14,7 @@ public class OverrideSportsCar extends SportsCar{
         return isBoost;
     }
 
-    void accelerator(int speed) {
+    public void accelerator(int speed) {
         if(this.isBoost){
             speed *= 2;
         }

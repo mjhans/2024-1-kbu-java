@@ -15,6 +15,9 @@ public class Car {
     public void accelerator(int speed){
         this.currentSpeed += speed;
     }
+    public void accelerator(){
+        this.accelerator(1);
+    }
 
     public int getCurrentSpeed(){
         return currentSpeed;
