@@ -6,8 +6,8 @@ public class Bar {
     Foo foo = new Foo();
     void useFoo(){
         // int a = foo.a;   // 접근할수 없다
-        // a.returnThree(); // 접근할수 없다
-        //foo.returnFour(); // default 접근제한자
+        // foo.returnThree(); // 접근할수 없다
+        // foo.returnFour(); // default 접근제한자
         foo.publicReturnFour();
     }
 }

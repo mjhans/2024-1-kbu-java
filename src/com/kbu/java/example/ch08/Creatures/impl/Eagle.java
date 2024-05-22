@@ -1,16 +1,15 @@
 package com.kbu.java.example.ch08.Creatures.impl;
 
-import com.kbu.java.example.ch08.Creatures.*;
+import com.kbu.java.example.ch08.Creatures.AbstarctBird;
 
-public class Eagle extends AbstarctBird implements Flyable{
+public class Eagle extends AbstarctBird {
 
-    @Override
-    public void sound() {
-        System.out.println("kkiii!!");
+    public Eagle() {
+        super("Eagle");
     }
 
     @Override
-    public void fly() {
-        System.out.println("i can fly");
+    public void sound() {
+        System.out.println(this.getAnimalName() + " : kkiii!!");
     }
 }

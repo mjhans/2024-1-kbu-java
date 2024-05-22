@@ -2,6 +2,7 @@ package com.kbu.java.example.ch08.ClassInheritance.ProtectedTest.FooPakage;
 
 public class Foo {
     protected int a = 0;
+    
     protected int returnThree(){
         return 3;
     }

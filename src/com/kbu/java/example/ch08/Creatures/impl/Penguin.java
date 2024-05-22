@@ -1,17 +1,16 @@
 package com.kbu.java.example.ch08.Creatures.impl;
 
-import com.kbu.java.example.ch08.Creatures.*;
+import com.kbu.java.example.ch08.Creatures.AbstarctBird;
 
-public class Penguin extends AbstarctBird implements Swimmable{
 
-    @Override
-    public void sound() {
-        System.out.println("Penguin sound");
+public class Penguin extends AbstarctBird {
+    public Penguin(){
+        super("Penguin");
     }
 
     @Override
-    public void swim() {
-        System.out.println("i can swim");
+    public void sound() {
+        System.out.println(this.getAnimalName() + " : sound");
     }
     
 }
