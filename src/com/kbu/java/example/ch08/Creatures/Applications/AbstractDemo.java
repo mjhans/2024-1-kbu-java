@@ -1,14 +1,14 @@
 package com.kbu.java.example.ch08.Creatures.Applications;
 
-import com.kbu.java.example.ch08.Creatures.AbstractAnimal;
+import com.kbu.java.example.ch08.Creatures.Animal;
 import com.kbu.java.example.ch08.Creatures.impl.*;;
 
 public class AbstractDemo {
     public static void main(String[] args){
-        AbstractAnimal human = new Human();
-        AbstractAnimal bat = new Bat();
-        AbstractAnimal eagle = new Eagle();
-        AbstractAnimal penguin = new Penguin();
+        Animal human = new Human();
+        Animal bat = new Bat();
+        Animal eagle = new Eagle();
+        Animal penguin = new Penguin();
 
         human.sound();
         bat.sound();

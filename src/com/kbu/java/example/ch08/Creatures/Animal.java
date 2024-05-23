@@ -1,9 +1,9 @@
 package com.kbu.java.example.ch08.Creatures;
 
-public abstract class AbstractAnimal {
+public abstract class Animal {
     private String animalName;
 
-    protected AbstractAnimal(String name){
+    protected Animal(String name){
         this.animalName = name;
     }
     protected String getAnimalName(){

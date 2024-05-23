@@ -1,6 +1,6 @@
 package com.kbu.java.example.ch08.Creatures;
 
-public abstract class AbstarctBird extends AbstractAnimal{
+public abstract class AbstarctBird extends Animal{
 
     protected AbstarctBird(String name) {
         super(name);
