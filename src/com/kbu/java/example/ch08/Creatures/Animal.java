@@ -1,6 +1,6 @@
 package com.kbu.java.example.ch08.Creatures;
 
-public abstract class Animal {
+public abstract class Animal implements IAnimal {
     private String animalName;
 
     protected Animal(String name){
@@ -9,6 +9,4 @@ public abstract class Animal {
     protected String getAnimalName(){
         return this.animalName;
     }
-
-    public abstract void sound();
 }
