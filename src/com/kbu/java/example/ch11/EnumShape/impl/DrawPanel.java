@@ -2,7 +2,7 @@ package com.kbu.java.example.ch11.EnumShape.impl;
 
 import com.kbu.java.example.ch11.EnumShape.*;
 
-public class DrawPane {
+public class DrawPanel {
     Shape[] shapeList = null;
     public void addShape(Shape ... s) {
         this.shapeList = s;

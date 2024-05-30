@@ -14,6 +14,9 @@ public class Point {
         this.x = x;
         this.y = y;
     }
+    public String getPointInfo(){
+        return String.format("(%s, %s)", this.x, this.y);
+    }
     public int getX(){
         return this.x;
     }
