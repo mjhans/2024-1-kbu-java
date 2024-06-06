@@ -5,6 +5,8 @@ import com.kbu.java.example.ch11.EnumSample.Constants.*;
 public class EnumDemo {
     public static void main(String[] args) {
         Day today = Day.TUESDAY;
+        Day monday = Day.MONDAY;
+        System.out.println(monday);
 
         switch (today) {
             case MONDAY -> System.out.println("It's Monday. Start of the work week.");

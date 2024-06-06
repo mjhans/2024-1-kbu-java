@@ -18,6 +18,7 @@ public class BufferedFileTest {
             while ((i = br.read()) != -1){
                 bw.write((char)i);
             }
+            bw.flush();
         }catch (Exception e){
                 e.printStackTrace();
             }
@@ -30,6 +31,7 @@ public class BufferedFileTest {
                 while ((i = fr.read()) != -1){
                     fw.write((char)i);
                 }
+                fw.flush();
             } catch (Exception e){
                 e.printStackTrace();
             }

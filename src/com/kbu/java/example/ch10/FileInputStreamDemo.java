@@ -17,7 +17,7 @@ public class FileInputStreamDemo {
     }
     public static void main(String[] args){
         
-        printFile("/Users/mjhans/workspaces/personal/java_lecture/kbu-java-2023-01/src/com/kbu/java/ch11_Stream/Sample01.txt");
-        printFile("/Users/mjhans/workspaces/personal/java_lecture/kbu-java-2023-01/src/com/kbu/java/ch11_Stream/Sample02.txt");
+        printFile("/Users/mjhans/workspaces/personal/2024-1-kbu-java/src/com/kbu/java/example/ch10/Sample01.txt");
+        printFile("/Users/mjhans/workspaces/personal/2024-1-kbu-java/src/com/kbu/java/example/ch10/Sample02.txt");
     }
 }

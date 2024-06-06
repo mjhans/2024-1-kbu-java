@@ -30,9 +30,10 @@ public class EnumAdv {
 
     // //회사 추가
     // final static int MS = 1;
-    // final static int APPLE = 2;
+    // final static int C_APPLE = 2;
     // final static int AMAZON = 3;
     //---------------------------------------
+
 
 
     public static void main(String[] args) { 

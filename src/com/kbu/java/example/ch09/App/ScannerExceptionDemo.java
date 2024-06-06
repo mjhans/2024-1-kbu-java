@@ -15,6 +15,7 @@ public class ScannerExceptionDemo {
             System.out.println(e);
         } finally {
             //input.close();
+            
             System.out.println("Finally?");
             if (input != null){
                 try {

@@ -7,7 +7,7 @@ public class UseEnumDemo {
         for (Day dt : Day.values()){
             System.out.println(dt.toString());
         }
-
+        System.out.println(Day.MONDAY);
         Day monday = Day.valueOf("MONDAY");
 
         System.out.println(monday.toString());

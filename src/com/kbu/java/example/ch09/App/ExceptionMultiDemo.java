@@ -10,13 +10,16 @@ public class ExceptionMultiDemo {
         try (Scanner input = new Scanner(System.in)) {
             temp = input.nextInt();
             System.out.println(temp);
+        
         } catch (InputMismatchException e) {
             e.printStackTrace();
-        } catch (Exception e) {
+        }catch (Exception e) {
             if (e instanceof IOException) {
                 e.printStackTrace();
             }
             e.printStackTrace();
+            
         }
+        
     }
 }
